@@ -1,0 +1,76 @@
+[
+  {
+    "id": "application-1708123456000",
+    "type": "application",
+    "timestamp": "2024-02-17T10:30:00.000Z",
+    "data": {
+      "firstName": "John",
+      "lastName": "Okonkwo",
+      "email": "john.okonkwo@email.com",
+      "phone": "+234-800-123-4567",
+      "dateOfBirth": "1995-05-15",
+      "gender": "Male",
+      "nationality": "Nigerian",
+      "address": "123 Main Street",
+      "city": "Lagos",
+      "state": "Lagos",
+      "postalCode": "100001",
+      "highestEducation": "Bachelor's Degree",
+      "institution": "University of Lagos",
+      "graduationYear": "2020",
+      "major": "Religious Studies",
+      "gpa": "3.8",
+      "denominationAffiliation": "Pentecostal",
+      "yearsInChurch": "8",
+      "ministryExperience": "3 years as worship leader",
+      "referringChurch": "Victory Chapel Lagos",
+      "programInterest": "Master of Divinity",
+      "motivation": "Called to pastoral ministry and theological scholarship",
+      "careerGoals": "Senior Pastor and Theological Educator",
+      "references": "Pastor Michael Adeyemi"
+    }
+  },
+  {
+    "id": "contact-1708209856000",
+    "type": "contact",
+    "timestamp": "2024-02-18T14:15:00.000Z",
+    "data": {
+      "senderName": "Grace Okoro",
+      "email": "grace.okoro@email.com",
+      "phone": "+234-701-555-8901",
+      "subject": "Inquiry about E-Learning Program",
+      "message": "I am interested in learning more about your online E-Learning courses. Can you provide details about the program structure and enrollment process?"
+    }
+  },
+  {
+    "id": "application-1708296256000",
+    "type": "application",
+    "timestamp": "2024-02-19T09:45:00.000Z",
+    "data": {
+      "firstName": "Samuel",
+      "lastName": "Amukamara",
+      "email": "samuel.amukamara@email.com",
+      "phone": "+234-816-222-3344",
+      "dateOfBirth": "1992-03-22",
+      "gender": "Male",
+      "nationality": "Ghanaian",
+      "address": "456 Church Avenue",
+      "city": "Accra",
+      "state": "Greater Accra",
+      "postalCode": "233000",
+      "highestEducation": "Associate Degree",
+      "institution": "Accra Technical University",
+      "graduationYear": "2019",
+      "major": "Business Administration",
+      "gpa": "3.5",
+      "denominationAffiliation": "Pentecostal",
+      "yearsInChurch": "6",
+      "ministryExperience": "2 years as youth minister",
+      "referringChurch": "Lighthouse Church Accra",
+      "programInterest": "Bachelor of Arts in Theology",
+      "motivation": "Pursuing full-time ministry and biblical education",
+      "careerGoals": "Church planter and community advocate",
+      "references": "Reverend Amos Tettey"
+    }
+  }
+]
