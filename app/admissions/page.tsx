@@ -39,25 +39,25 @@ export default function Admissions() {
   const tuitionInfo = [
     {
       program: 'Bachelor of Arts in Theology',
-      perYear: '$3,500 - $4,500',
-      perMonth: '$290 - $375',
+      perYear: '#77000',
+      perMonth: '#35000',
       note: 'Full-time program',
     },
     {
       program: 'Associate Diploma',
-      perYear: '$2,000 - $2,800',
-      perMonth: '$165 - $235',
+      perYear: '#77000',
+      perMonth: '#35000',
       note: 'Full-time program',
     },
     {
       program: 'Master of Arts',
-      perYear: '$4,000 - $5,500',
-      perMonth: '$330 - $460',
+      perYear: '#77000',
+      perMonth: '#35000',
       note: 'Full-time program',
     },
     {
       program: 'E-Learning Courses',
-      perCourse: '$400 - $800',
+      perCourse: '#100000',
       perMonth: 'Flexible',
       note: 'Per course basis',
     },

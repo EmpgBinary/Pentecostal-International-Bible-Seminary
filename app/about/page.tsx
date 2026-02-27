@@ -63,17 +63,27 @@ export default function About() {
         {/* History Section */}
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-foreground mb-8">Our History</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-8">Aims and Objectives</h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Pentecostal International Bible Seminary was founded in 1999 with a vision to provide accessible, high-quality theological education rooted in biblical truth and pentecostal spirituality. What began as a small institution with 50 students has grown into a leading center of theological excellence.
+                  PIBS is a theological instituttion. In understanding its primary academic and professional purposes, the seminary aims.
+                  <li>1. To prepare men and women for Christian ministries so they may perform ministerial functions and be equipped to develop innovative ministries in a changing world</li>
+                  <li>2. To stimulate the growth of the personal Christian spirit among its facility and students and nuture among them, the discpline of Christian life.</li>
+                  <li>3. To foster a distinctive community of those who share common faith and commitment as expressed in corporate worship, mutual care and varieties of exprerience in life lived together</li>
+                  <li>To inquire into all aspects of theological truth using all pertinent discplines, and form basic commitment to christian doctrine, 
+                    to  reappraise and reformulate the christian faith in response to our increasing knowledge.
+                  </li>
+                  <li>To improve study, instruction and ministry and to apply appropriate academic standards to research and practice.</li>
+                  <li>To encourage freedom of intellect and conscience so that, the life of the scholl and the church may be enreiched by diverse and responsible
+                    thoughts and actions.
+                  </li>
                 </p>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Over the past two decades, PIBS has expanded its reach through multiple campuses, innovative distance learning programs, and strategic partnerships with international theological institutions. Our graduates serve in churches, NGOs, educational institutions, and community organizations across Africa and the diaspora.
-                </p>
+                {/* <p className="text-muted-foreground leading-relaxed mb-6">
+                 To stimulate the growth of the personal Christian spirit among its facility and students and nuture among them them discpline of christian life.
+                </p> */}
               </div>
-              <div className="bg-blue-50 p-8 rounded-lg border-l-4 border-primary">
+              {/* <div className="bg-blue-50 p-8 rounded-lg border-l-4 border-primary">
                 <h3 className="text-2xl font-bold text-foreground mb-6">Milestones</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
@@ -97,7 +107,7 @@ export default function About() {
                     <span className="text-muted-foreground">5,000th graduate milestone</span>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -105,12 +115,12 @@ export default function About() {
         {/* Campus Gallery */}
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Campus & Facilities</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Campus Activities</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-1.jpg"
+                    src="/orokpo.jpg"
                     alt="Main Seminary Building"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -127,7 +137,7 @@ export default function About() {
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-2.jpg"
+                    src="/seun.jpg"
                     alt="Seminary Library"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -144,7 +154,7 @@ export default function About() {
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-3.jpg"
+                    src="/elias.jpg"
                     alt="Classroom"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -161,7 +171,7 @@ export default function About() {
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-4.jpg"
+                    src="/woman.jpg"
                     alt="Student Activities"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"

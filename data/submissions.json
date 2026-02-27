@@ -72,5 +72,36 @@
       "careerGoals": "Church planter and community advocate",
       "references": "Reverend Amos Tettey"
     }
+  },
+  {
+    "id": "application-1772127338319",
+    "type": "application",
+    "timestamp": "2026-02-26T17:35:38.319Z",
+    "data": {
+      "firstName": "Ezekiel",
+      "lastName": "ugweje",
+      "email": "ezekielugweje3@gmail.com",
+      "phone": "+2347067923384",
+      "dateOfBirth": "1988-09-12",
+      "gender": "male",
+      "nationality": "Nigerian",
+      "address": "14 ajetunmobi street Abaranje Ikotun",
+      "city": "Ikotun",
+      "state": "lagos",
+      "postalCode": "001100",
+      "highestEducation": "high_school",
+      "institution": "Command Day Secondary School",
+      "graduationYear": "2020",
+      "major": "Mathematics",
+      "gpa": "3.8",
+      "denominationAffiliation": "pentecostal",
+      "yearsInChurch": "10",
+      "ministryExperience": "i am a choir member in my church, devoted to the work of God",
+      "referringChurch": "Christian Pentecostal Mission",
+      "programInterest": "degree",
+      "motivation": "I want to gain more information and understand the word of God more",
+      "careerGoals": "I want to get a PHD",
+      "references": "Pastor makunjola"
+    }
   }
 ]

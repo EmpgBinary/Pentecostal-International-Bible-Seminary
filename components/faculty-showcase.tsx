@@ -6,92 +6,86 @@ import { useEffect, useRef, useState } from 'react'
 interface FacultyMember {
   id: number
   name: string
-  title: string
-  credentials: string
-  specialization: string
+  // title: string
+  // credentials: string
+  // specialization: string
   image: string
 }
 
 const facultyMembers: FacultyMember[] = [
+ 
+ 
   {
     id: 1,
-    name: 'Rev. Dr. M. Ezekiel',
-    title: 'Professor of Theology',
-    credentials: 'Ph.D. in Systematic Theology',
-    specialization: 'Pentecostal Theology, Church History',
-    image: '/mummy.jpg',
-  },
-  {
-    id: 2,
-    name: 'Rev. Donatus Emmanuel',
-    title: 'Professor of Biblical Studies',
-    credentials: 'Ph.D. in Biblical Hermeneutics',
-    specialization: 'Old Testament, Biblical Languages',
-    image: '/donatus.jpg',
-  },
-  {
-    id: 3,
     name: 'Dr. Mbatuojuo Patrick Olisa',
-    title: 'Director of Pastoral Care',
-    credentials: 'M.Div., Pastoral Counseling Certificate',
-    specialization: 'Pastoral Ministry, Counseling',
+    // title: 'Director of Pastoral Care',
+    // credentials: 'M.Div., Pastoral Counseling Certificate',
+    // specialization: 'Pastoral Ministry, Counseling',
     image: '/patrick.jpeg',
   },
   {
-    id: 4,
+    id: 2,
     name: 'Dr. Ezeakolam O. Ukabi',
-    title: 'Director of Christian Education',
-    credentials: 'Ph.D. in Religious Education',
-    specialization: 'Church Education, Youth Ministry',
+    // title: 'Director of Christian Education',
+    // credentials: 'Ph.D. in Religious Education',
+    // specialization: 'Church Education, Youth Ministry',
     image: '/ukpabi.jpeg',
   },
   {
-    id: 5,
+    id: 3,
     name: 'Dr. Godwin Ola Owa',
-    title: 'New Testament Scholar',
-    credentials: 'Ph.D. in New Testament Studies',
-    specialization: 'Gospels, Pauline Epistles',
+    // title: 'New Testament Scholar',
+    // credentials: 'Ph.D. in New Testament Studies',
+    // specialization: 'Gospels, Pauline Epistles',
     image: '/owa.jpeg',
   },
   {
-    id: 6,
+    id: 4,
     name: 'Pst Godson Uzoma Hez',
-    title: 'Professor of Old Testament',
-    credentials: 'Ph.D. in Old Testament Interpretation',
-    specialization: 'Pentateuch, Wisdom Literature',
+    // title: 'Professor of Old Testament',
+    // credentials: 'Ph.D. in Old Testament Interpretation',
+    // specialization: 'Pentateuch, Wisdom Literature',
     image: '/hez.jpeg',
   },
   {
-    id: 7,
+    id: 5,
     name: 'Dr. Charles Onyeukwu',
-    title: 'Homiletics & Preaching Coach',
-    credentials: 'M.Div., Preaching Excellence Certificate',
-    specialization: 'Preaching, Worship Leadership',
+    // title: 'Homiletics & Preaching Coach',
+    // credentials: 'M.Div., Preaching Excellence Certificate',
+    // specialization: 'Preaching, Worship Leadership',
     image: '/charles.jpg',
   },
   {
-    id: 8,
-    name: 'Kingsley Ibeh',
-    title: 'Professor of Missiology',
-    credentials: 'Ph.D. in Missiology',
-    specialization: 'Global Missions, Cultural Studies',
+    id: 6,
+    name: 'Pst. Kingsley Ibeh',
+    // title: 'Professor of Missiology',
+    // credentials: 'Ph.D. in Missiology',
+    // specialization: 'Global Missions, Cultural Studies',
     image: '/kingsley.jpg',
   },
   {
-    id: 9,
-    name: 'Courage U. O. Ngabnwa',
-    title: 'Church History Lecturer',
-    credentials: 'Ph.D. in Church History',
-    specialization: 'Reformation History, Pentecostal Roots',
+    id: 7,
+    name: 'Pst. Courage U. O. Ngabnwa',
+    // title: 'Church History Lecturer',
+    // credentials: 'Ph.D. in Church History',
+    // specialization: 'Reformation History, Pentecostal Roots',
     image: '/courage.jpg',
   },
   {
-    id: 10,
+    id: 8,
     name: 'Pst. Susan Daniels',
-    title: 'Spiritual Formation Counselor',
-    credentials: 'Ph.D. in Spiritual Development',
-    specialization: 'Spiritual Maturity, Discipleship',
+    // title: 'Spiritual Formation Counselor',
+    // credentials: 'Ph.D. in Spiritual Development',
+    // specialization: 'Spiritual Maturity, Discipleship',
     image: '/susan.jpeg',
+  },
+  {
+    id: 9,
+    name: 'Mrs Justina Enwezor',
+    // title: 'Spiritual Formation Counselor',
+    // credentials: 'Ph.D. in Spiritual Development',
+    // specialization: 'Spiritual Maturity, Discipleship',
+    image: '/justina.jpeg',
   },
 ]
 
@@ -166,16 +160,16 @@ export function FacultyShowcase() {
                   <h3 className="text-lg font-bold text-foreground mb-1 line-clamp-2">
                     {faculty.name}
                   </h3>
-                  <p className="text-sm font-semibold text-primary mb-2">
+                  {/* <p className="text-sm font-semibold text-primary mb-2">
                     {faculty.title}
-                  </p>
-                  <p className="text-xs text-muted-foreground mb-3">
+                  </p>  */}
+                  {/* <p className="text-xs text-muted-foreground mb-3">
                     {faculty.credentials}
-                  </p>
+                  </p> */}
                   <div className="pt-3 border-t border-gray-200">
-                    <p className="text-xs text-gray-600 italic">
+                    {/* <p className="text-xs text-gray-600 italic">
                       Specialization: {faculty.specialization}
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 

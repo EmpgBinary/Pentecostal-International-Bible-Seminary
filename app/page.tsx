@@ -10,9 +10,9 @@ import { BookOpen, Users, Globe, Laptop } from 'lucide-react'
 export default function Home() {
   const boardMembers = [
     {
-      name: 'Rev. Dr. Margaret Okonkwo',
-      title: 'Cpm Abia',
-      image: '/board-member-1.jpg',
+      name: 'Rev. Dr. M.Ezekiel',
+      title: 'President PIBS',
+      image: '/mummy.jpg',
     },
     {
       name: 'Rev. John Eze',
@@ -78,7 +78,8 @@ export default function Home() {
               <div className="bg-blue-50 p-8 rounded-lg border-l-4 border-primary">
                 <h2 className="text-2xl font-bold text-foreground mb-4">Our Mission</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  To develop spiritually mature, biblically knowledgeable, and practically equipped leaders who will impact their communities, churches, and nations through authentic Christian ministry. We are committed to providing world-class theological education that integrates faith, scholarship, and service.
+                  The mission of Pentecostal International Bible Seminary(PIBS) is to equip individuals for christian ministry, through holistic education,
+                  emphasizing the pentecostal experience and practice of faith.
                 </p>
               </div>
 
@@ -86,7 +87,8 @@ export default function Home() {
               <div className="bg-red-50 p-8 rounded-lg border-l-4 border-accent">
                 <h2 className="text-2xl font-bold text-foreground mb-4">Our Vision</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  To be a leading institution of biblical education that transforms lives, strengthens churches, and advances God's kingdom across Africa and beyond. We envision a generation of Spirit-filled leaders who are committed to biblical truth, pastoral excellence, and social transformation.
+                  The Vison of Pentecostal Bible Seminary (PIBS) is to train and equip ministers to serve in holiness and righteousness,
+                  both within their local context and on a global scale.
                 </p>
               </div>
             </div>
@@ -112,7 +114,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-foreground mb-2">Rev Mercy Ezekiel</h3>
                 <p className="text-lg font-semibold text-primary mb-4">President</p>
                 <p className="text-muted-foreground leading-relaxed max-w-sm">
-                  Rev Mercy brings over 35 years of pastoral experience and has served as president since 2010. He holds a Ph.D. in Systematic Theology and is passionate about advancing African theological education. His visionary leadership has positioned PIBS as a beacon of biblical excellence in the region.
+                  She is a woman of integrity whose hard work has yielded great fruits in Christian Pentecostal Mission Intl.
+                  She is the General Overseer of C.P.M, Int'l. She is the President of Pentecostal International BIble Seminary(PIBS) and the President of MEEZ Outreach
+                  which has a far reaching deliverance effect all over NIgeria and abroad. She has a Ph.D in theology and Christian Education. She is an Executive 
+                  member of Christian Association of Nigeria(CAN).
                 </p>
               </div>
 
@@ -126,10 +131,13 @@ export default function Home() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">Rev Donatus Emmanuel</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">PROF. Donatus Emmanuel, U.N</h3>
                 <p className="text-lg font-semibold text-accent mb-4">Rector</p>
                 <p className="text-muted-foreground leading-relaxed max-w-sm">
-                  Rev Donatus serves as Rector with responsibility for academic excellence and institutional development. He earned his doctorate from Cambridge University and has published extensively on African pentecostalism. He is committed to maintaining the highest academic standards while preserving our spiritual mission.
+                  He holds a Diploma in Theology from Derek Prince Theological Corres. COl, USA. Diploma in Theology from PIBS, As well as a Ph.D in Divinity from GMF Christian
+                  University. Donatus Emmanuel is Also a Professor and Apostle of Divinity, a Defender of the Faith(Divine Order), A teacher, a man with doctrine and divine principles.
+                  A man with leadership distinction called into the teaching ministry, a man of integrity and a preacher of righteousness. He is the seminary const and teaches christian
+                  ethics, soteriology, and advanced pastoral theology among other courses.
                 </p>
               </div>
             </div>
@@ -139,7 +147,7 @@ export default function Home() {
         {/* Board Members Section */}
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-foreground mb-4 text-center">Board of Directors</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4 text-center">Board Members</h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
               Our board comprises visionary leaders committed to advancing biblical education and institutional excellence.
             </p>

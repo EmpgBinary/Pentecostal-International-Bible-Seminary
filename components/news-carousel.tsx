@@ -34,6 +34,20 @@ const newsItems: NewsItem[] = [
     date: 'April 22, 2024',
     description: 'A powerful chapel service featuring worship, prayer, and spiritual renewal for all members of the Pentecostal International Bible Seminary community.',
   },
+  {
+    id: 4,
+    image: '/btb.jpg',
+    title: 'Back To Bible Conference',
+    date: 'April 22, 2024',
+    description: 'A powerful chapel service featuring worship, prayer, and spiritual renewal for all members of the Pentecostal International Bible Seminary community.',
+  },
+   {
+    id: 5,
+    image: '/sale.png',
+    title: 'Admission In Progress',
+    date: 'April 22, 2024',
+    description: 'A powerful chapel service featuring worship, prayer, and spiritual renewal for all members of the Pentecostal International Bible Seminary community.',
+  },
 ]
 
 export function NewsCarousel() {

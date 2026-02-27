@@ -149,7 +149,7 @@ export default function Academics() {
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-2.jpg"
+                    src="/inside.jpg"
                     alt="Seminary Library Resources"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -166,7 +166,7 @@ export default function Academics() {
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-80 md:h-96">
                   <Image
-                    src="/campus-3.jpg"
+                    src="/outside.jpg"
                     alt="Interactive Classrooms"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"

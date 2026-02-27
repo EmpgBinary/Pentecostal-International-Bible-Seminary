@@ -50,17 +50,17 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Main Campus',
-      details: ['123 Seminary Lane', 'Faith City, FC 12345', 'Africa'],
+      details: ['christian pentecostal mission intl','10/12 lateef salami stree, Ajao Estate', 'isolo', 'lagos'],
     },
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+1 (555) 123-4567', '+1 (555) 123-4568', 'Toll-free: 1-800-PIBS-001'],
+      details: ['08033024655', '08140258500'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@pibs.edu', 'admissions@pibs.edu', 'academics@pibs.edu'],
+      details: ['pibsinfo@gmail.com'],
     },
     {
       icon: Clock,
@@ -73,22 +73,22 @@ export default function Contact() {
     {
       name: 'Admissions Office',
       email: 'admissions@pibs.edu',
-      phone: '+1 (555) 123-4567',
+      phone: '08033024655',
     },
     {
       name: 'Academic Affairs',
       email: 'academics@pibs.edu',
-      phone: '+1 (555) 123-4568',
+      phone: '08033024655',
     },
     {
       name: 'Financial Aid',
       email: 'financialaid@pibs.edu',
-      phone: '+1 (555) 123-4569',
+      phone: '08033024655',
     },
     {
       name: 'Student Services',
       email: 'students@pibs.edu',
-      phone: '+1 (555) 123-4570',
+      phone: '08033024655',
     },
   ]
 
